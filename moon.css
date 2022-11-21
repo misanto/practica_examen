@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+
+
+.container {
+  max-width: 2000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  height: 25%;
+  background-color: #03045e;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 1000px) {
+  .flex {
+    flex-direction: column;
+  }
+}
+
+body {
+  background-image: url(assets/imgs/moon.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-size: 15px;
+  font-family: "Roboto";
+}
+
+.home {
+  color: white;
+  padding: 2% 10% 2% 10%;
+}
+
+.home:hover {
+  background-color: rgb(100, 200, 255);
+}
+
+.galeria {
+  color: white;
+  padding: 2% 10% 2% 10%;
+}
+
+.galeria:hover {
+  background-color: rgb(100, 200, 255);
+}
+
+.reserva {
+  color: white;
+  padding: 2% 10% 2% 10%;
+}
+
+.reserva:hover {
+  background-color: rgb(100, 200, 255);
+}
+
+.active {
+  background-color: cornflowerblue;
+}
+
+.background {
+  height: 90vh;
+  align-content: center;
+}
+
+/* Pàgina 1 */
+
+.text {
+  background-color: rgba(72, 202, 228, 0.5);
+  border: 5px solid #03045e;
+  border-radius: 10px;
+  align-items: center;
+  flex-direction: column;
+  width: 33%;
+  margin: 0 auto;
+}
+
+.text h4 {
+  font-size: 30px;
+  margin: 10px;
+}
+
+.text p {
+  margin: 10px;
+}
+
+.text a {
+  margin: 5px;
+  border: 5px solid #03045e;
+  background-color: #03045e;
+  border-radius: 10px;
+}
+
+.a-reserve {
+  color: white;
+}
+
+/* Pàgina 2 */
+
+.images {
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.images div {
+  margin: 2%;
+  width: 25%;
+  height: 50vh;
+}
+
+
+
+.moon1 {
+  background-image: url(../img/moon1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.moon2 {
+  background-image: url(../img/moon2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.moon3 {
+  background-image: url(../img/moon3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.moon4 {
+  background-image: url(../img/moon4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.moon5 {
+  background-image: url(../img/moon5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.moon6 {
+  background-image: url(../img/moon6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.moon7 {
+  background-image: url(../img/moon7.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.moon8 {
+  background-image: url(../img/moon8.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.moon9 {
+  background-image: url(../img/moon9.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+/* Pàgina 3 */
+
+.form h3 {
+  font-size: 30px;
+}
+
+.form input {
+  background-color: rgba(0, 238, 255, 0.4);
+  border: 3px solid #03045e;
+  border-radius: 9px;
+}
+
+.form button {
+  background-color: rgba(0, 238, 255, 0.4);
+  border: 2px solid #03045e;
+  border-radius: 5px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  background-color: #03045e;
+  height: 5vh;
+  justify-content: flex-end;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+  .text h4 {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .text h4 {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .text h4 {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .text h4 {
+    font-size: 20px;
+  }
+}
